@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 98%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contenedor {
+  width: 98%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#fecha {
+  margin: auto;
+}
+
+.titulo,
+.hora,
+.seccion {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 14.28%;
+  text-align: center;
+}
+
+.seccion {
+  border-radius: 3px;
+}
+
+.seccion:hover {
+  cursor: pointer;
+}
+
+.par {
+  border-top: none;
+}
+
+.impar {
+  border-bottom: none;
+}
+
+.inicio {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.centro {
+  border-radius: 0;
+  border-bottom: none;
+  border-top: none;
+}
+
+.fin {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form div {
+  width: 50%;
+}
+
+form input {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 60%;
+}
+
+label {
+  width: 50%;
+}
